@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    color:#444;
+}
+
+a{
+    color:#333;
+    text-decoration: none;
+}
+
+h1,h2,h3{
+    padding-bottom:20px;
+}
+
+p{
+    margin: 10px 0;
+}
+
+/*utility classes*/
+.container{
+    padding: 0 20px;
+    margin:auto;
+    max-width: 1000px;
+    overflow: auto;
+}
+
+.primary{
+    color: #f7c08a;
+}
+
+
+.button{
+    padding: 13px 10px;
+    background-color: #333;
+    color: white;
+}
+
+.button:hover{
+    color:#f7c08a;
+    background-color:  #444;
+}
+
+.clr{
+    clear:both;
+}
+
+.nav-bar{
+    background-color: #333;
+    color:white;
+    overflow: auto;
+}
+
+.nav-bar a{
+    color: white;
+}
+
+.nav-bar h1{
+    float:left;
+    padding-top: 20px;
+}
+
+.nav-bar ul{
+    float:right;
+    padding: 20px;
+    list-style: none;
+}
+
+.nav-bar ul li{
+    display: inline;
+}
+
+.nav-bar ul li a{
+    padding:20px;
+}
+
+.nav-bar ul li a:hover,
+.nav-bar ul li .current
+{
+    background-color: #444;
+    color: #f7c08a;
+}
+
+.main-footer{
+    padding:20px ;
+    background-color: #444;
+    color:white;
+    text-align: center;
+}
+
+.about{
+    box-sizing:border-box;
+    overflow: auto;
+    max-height:400px;
+}
+.about-content{
+    float:left;
+    width:60%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top:4%;
+    padding-bottom:4%;
+}
+
+.about-content h1{
+    font-size: 40px;
+    line-height: 1em;
+}
+.about-content p{
+    line-height: 1.75em;
+}
+.about .side-bar{
+    float:right;
+    width:40%;
+}
+.about .side-bar .about-img{
+    display: block;
+    width: 80%;
+    border-radius: 50%;
+    margin: 5% auto;
+}  
+
+.testimonial
+{
+    min-width:100%;
+    min-height: 600px;
+    background-image: url(../images/about-img/test-bg.jpg);
+    background-position: center bottom;
+}
+.testimonial h1{
+    color:white;
+    font-size: 40px;
+    padding-top: 4%;
+    text-align: center;
+}
+
+.block{
+    background-color: #f7c08a;
+    margin:4% auto;
+    padding:3%;
+    border-radius: 1.25em;
+    opacity: 0.9;
+    overflow: hidden;
+    font-family: ;
+}
+
+.testimonial .picture{
+    width:20%;
+    float:left;
+}
+
+.testimonial .testimonial-content{
+    width:80%;
+    float:right;
+    padding-top:20px;
+}
+
+.testimonial .picture .testimonial-person{
+    width:60%;
+    margin-left:15%;
+    border-radius: 80%;
+}
