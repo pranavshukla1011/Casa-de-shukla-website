@@ -1,3 +1,2 @@
 # Hotel-management-site-responsive
-This is a sample hotel management website using only html and css.
-No css grid and flexbox are used.
+Fictional Hotel Website using html and css. Responsive. No css grid/flexbox/bootstrap/javascript used.
